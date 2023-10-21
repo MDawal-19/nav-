@@ -1,0 +1,163 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+
+#header{
+	position: absolute;
+	padding: 100px;
+	background-color: #0000bc;
+	border-bottom-right-radius: 40px;
+	border-bottom-left-radius: 40px ;
+
+}
+
+#searchbar{
+	position: absolute;
+	padding: 10px;
+	width: 100%;
+	border-radius: 10px;
+	margin-left: -20px;
+	margin-top: 30px;
+	border: none;
+}
+
+.btn{
+	position: absolute;
+    height: 45px;
+	width: 50%;
+	margin-left: -100px;
+	margin-top: 30px;
+}
+
+#link{
+	margin-left: -5px;
+}
+
+#location{
+	position: absolute;
+	margin-top: -40px;
+}
+
+#address{
+	margin-left: 20px;
+	margin-top: -20px;
+}
+
+#locationtag{
+	position: absolute;
+	width: auto;
+	height: 28px;
+	margin-top: -8px;
+	margin-left: -8px;
+}
+
+#dot{
+	position: absolute;
+	margin-left: 88%;
+	margin-top: -60px;
+}
+@media (min-width: 375px) and (max-width: 812px){
+	.btn{
+		position: absolute;
+		margin-left: 190px;
+		width: 40px;
+		margin-top: 30px;
+		height: 34px;
+		padding: px;
+	}
+
+	#searchbar{
+		position: absolute;
+		width: 152%;
+		margin-left: -90px;
+		margin-top: 30px;
+		padding: 5px;
+		border-radius: 5px;
+		bor
+	}
+
+	#location{
+		position: absolute;
+		margin-left: -70px;
+		margin-top: -50px;
+	}
+
+	#address{
+		position: absolute;
+		margin-left: -50px;
+		margin-top: -25px;
+		font-size: 20px;
+	}
+
+	#locationtag{
+		position: absolute;
+		width: auto;
+		height: 25px;
+		margin-left: -75px;
+		margin-top: -25px;
+	}
+
+	#dot{
+		position: absolute;
+		margin-left: 230px;
+		margin-top: -70px;
+	}
+
+	#link{
+		margin-top: -5px;
+		margin-left: -9px;
+	}
+}
+
+@media (min-width: 414px) and (max-width: 736px){
+	.btn{
+		margin-left: 240px;
+	}
+	#searchbar{
+		width: 150%;
+		border-radius: 5px;
+	}
+	#dot{
+		position: absolute;
+		margin-left: 270px;
+		margin-top: -80px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+	.btn{
+		margin-left: 70px;
+	}
+	#searchbar{
+		width: 140%;
+	}
+	#dot{
+		margin-left: 80%;
+	}
+}
+
+@media (min-width: 360px) and (max-width: 640px){
+
+	#searchbar{
+		width: 200;
+	}
+}
+
+#haeder{
+	padding: 300px;
+	width: 20px;
+}
+
+/*facebook*/
+
+@media (min-width: 412px) and (max-width: 892px){
+	.btn{
+		margin-left: 230px;
+		margin-top: 28px;
+	}
+	#searchbar{
+		width: 140%;
+	}
+}
